@@ -103,7 +103,7 @@ img:hover {
 }
 
 .product-info {
-  width: 280px;
+  width: 300px;
   justify-content: space-around;
   align-items: center;
   padding: 2px;
@@ -118,8 +118,11 @@ img:hover {
 }
 
 #cart {
-  filter: invert();
+  margin-top: 5%;
+  /*filter: invert();*/
+  transform: scaleX(-1);
   width: 30px;
+  height: 30px;
 }
 
 .about-us {
