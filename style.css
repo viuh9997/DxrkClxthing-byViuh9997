@@ -19,7 +19,7 @@ body {
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 25vh;
+  padding: 17%;
   transition: 0.3s;
 }
 
@@ -69,13 +69,19 @@ h3 {
 
 .intro {
   margin-top: 30px;
-  text-align: center;
-  padding: 10%;
-  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+  text-align: left;
 }
 
 #intro {
-  margin: 30px;
+  margin: 1%;
+  text-align: justify;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
 @media (max-width: 600px) {
@@ -126,7 +132,7 @@ img:hover {
   justify-content: space-around;
   align-items: center;
   padding: 2px;
-  box-shadow: 5px 5px 5px #262626;
+  box-shadow: 1px 1px 1px #262626;
   max-zoom: 100%;
   display: flex;
   margin-left: auto;
@@ -148,7 +154,7 @@ img:hover {
   padding: 10px;
   margin: 3%;
   font-weight: bold;
-  box-shadow: 5px 5px 5px #262626;
+  box-shadow: 1px 1px 1px #262626;
 }
 
 .viuh {
@@ -158,16 +164,18 @@ img:hover {
 }
 
 #txt-au {
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 .txt-au {
   padding: 5%;
   text-align: justify;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
 footer {
-  padding: 4vh;
+  padding: 2%;
   background: #000;
   display: flex;
 }
