@@ -19,13 +19,13 @@ body {
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 17%;
+  padding: 20vh;
   transition: 0.3s;
 }
 
 .logo {
-  text-align: center;
-  margin: 2%;
+  text-align: left;
+  margin-left: 10%;
 }
 
 a {
@@ -46,48 +46,14 @@ h1 {
   }
 }
 
-p {
-  font-weight: bold;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
 .menu {
   display: flex;
 }
 
 .menu li {
-  font-weight: bold;
   flex-wrap: wrap;
   margin: 6px;
   padding: 5px;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-.intro {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-  margin: 5%;
-  text-align: left;
-}
-
-#intro {
-  margin: 1%;
-  text-align: justify;
-  flex-wrap: wrap;
-  text-align: left;
-}
-
-@media (max-width: 600px) {
-  #intro {
-    text-align: justify;
-  }
 }
 
 #linha-horizontal {
@@ -133,7 +99,6 @@ img:hover {
   align-items: center;
   padding: 2px;
   box-shadow: 1px 1px 1px #262626;
-  max-zoom: 100%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -151,10 +116,18 @@ img:hover {
 .about-us {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 2%;
   margin: 3%;
-  font-weight: bold;
   box-shadow: 1px 1px 1px #262626;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .about-us {
+    text-align: justify;
+    flex-wrap: wrap;
+
+  }
 }
 
 .viuh {
@@ -173,13 +146,18 @@ img:hover {
   flex-wrap: wrap;
   text-align: left;
 }
-
+ 
 footer {
   padding: 2%;
-  background: #000;
   display: flex;
 }
 
 #footer {
+
+  justify-content: center;
   margin: 22px;
+  display: inline;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 5%;
 }
