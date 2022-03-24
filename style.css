@@ -15,15 +15,15 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 20vh;
+  padding: 30vh;
   transition: 0.3s;
 }
 
 .logo {
+  align-items: center;
   text-align: left;
   margin-left: 10%;
 }
@@ -42,18 +42,27 @@ h1 {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 
 .menu {
   display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .menu li {
-  flex-wrap: wrap;
-  margin: 6px;
+  margin: 5px;
   padding: 5px;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10%;
+  }
 }
 
 #linha-horizontal {
@@ -65,8 +74,8 @@ h1 {
 }
 
 .img {
-  width: 280px;
-  height: 280px;
+  width: 80%;
+  height: 80%;
   max-zoom: 100%;
   display: block;
   margin-left: auto;
@@ -126,38 +135,34 @@ img:hover {
   .about-us {
     text-align: justify;
     flex-wrap: wrap;
-
-  }
+    flex-direction: column;
+    }
 }
 
 .viuh {
   width: 120px;
-  margin: 10px;
-  max-zoom: 100;
+  margin: 10%;
+  max-zoom: 100%;
 }
+
 
 #txt-au {
   padding-bottom: 5px;
+  
 }
 
 .txt-au {
   padding: 5%;
   text-align: justify;
   flex-wrap: wrap;
-  text-align: left;
 }
  
 footer {
   padding: 2%;
   display: flex;
-}
-
-#footer {
-
   justify-content: center;
   margin: 22px;
-  display: inline;
-  flex-direction: row;
+  display: flex;
   align-content: center;
   margin-left: 5%;
 }
