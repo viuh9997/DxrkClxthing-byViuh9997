@@ -1,4 +1,5 @@
 * {
+  color: white;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -23,13 +24,11 @@ body {
 }
 
 .logo {
-  color: white;
   text-align: center;
   margin: 2%;
 }
 
 a {
-  color: white;
   transition: 0.3s;
 }
 
@@ -38,7 +37,6 @@ a:hover {
 }
 
 h1 {
-  color: white;
   font-size: 5em;
 }
 
@@ -48,19 +46,13 @@ h1 {
   }
 }
 
-h2 {
-  color: white;
-}
-
 p {
-  color: white;
   font-weight: bold;
   flex-wrap: wrap;
   text-align: center;
 }
 
 .menu {
-  color: white;
   display: flex;
 }
 
@@ -72,15 +64,14 @@ p {
 }
 
 h3 {
-  color: white;
   font-size: 2em;
 }
 
 .intro {
   margin-top: 30px;
   text-align: center;
-  padding: 50px;
-  margin: 50px;
+  padding: 10%;
+  margin: 30px;
 }
 
 #intro {
@@ -102,7 +93,6 @@ h3 {
 }
 
 .img {
-  border-top-right-radius: 4%;
   width: 280px;
   height: 280px;
   max-zoom: 100%;
@@ -122,7 +112,6 @@ img:hover {
 }
 
 .product-card {
-  color: white;
   padding: 3%;
   flex-grow: 1;
   flex-basis: 16%;
@@ -137,7 +126,7 @@ img:hover {
   justify-content: space-around;
   align-items: center;
   padding: 2px;
-  box-shadow: 8px 8px 10px 5px #262626;
+  box-shadow: 5px 5px 5px #262626;
   max-zoom: 100%;
   display: flex;
   margin-left: auto;
@@ -146,11 +135,9 @@ img:hover {
 
 #product-info {
   transition: 0.3s;
-  color: white;
 }
 
 #cart {
-  color: #fff;
   filter: invert();
   width: 30px;
 }
@@ -161,8 +148,7 @@ img:hover {
   padding: 10px;
   margin: 3%;
   font-weight: bold;
-  color: white;
-  box-shadow: 8px 8px 10px 5px #262626;
+  box-shadow: 5px 5px 5px #262626;
 }
 
 .viuh {
@@ -176,7 +162,7 @@ img:hover {
 }
 
 .txt-au {
-  padding: 10px;
+  padding: 5%;
   text-align: justify;
 }
 
@@ -188,5 +174,4 @@ footer {
 
 #footer {
   margin: 22px;
-  color: white;
 }
